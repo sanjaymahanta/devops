@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-06T16:44:33 IST" name="Default suite" finished-at="2025-04-06T16:44:40 IST" duration-ms="6371">
+  <suite started-at="2025-04-19T17:20:39 IST" name="Default suite" finished-at="2025-04-19T17:20:40 IST" duration-ms="1066">
     <groups>
     </groups>
-    <test started-at="2025-04-06T16:44:33 IST" name="Default test" finished-at="2025-04-06T16:44:40 IST" duration-ms="6371">
-      <class name="com.testpages.TestAddRemovePage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testpages.TestAddRemovePage@58ea606c]" started-at="2025-04-06T16:44:34 IST" name="setUp" finished-at="2025-04-06T16:44:39 IST" duration-ms="5517" status="PASS">
+    <test started-at="2025-04-19T17:20:39 IST" name="Default test" finished-at="2025-04-19T17:20:40 IST" duration-ms="1066">
+      <class name="com.testpages.TestHomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testpages.TestHomePage@3e96bacf]" started-at="2025-04-19T17:20:33 IST" name="setup" finished-at="2025-04-19T17:20:39 IST" duration-ms="5602" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addingElement()[pri:0, instance:com.testpages.TestAddRemovePage@58ea606c]" started-at="2025-04-06T16:44:39 IST" name="addingElement" finished-at="2025-04-06T16:44:40 IST" duration-ms="771" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="test03()[pri:0, instance:com.testpages.TestHomePage@3e96bacf]" started-at="2025-04-19T17:20:39 IST" name="test03" finished-at="2025-04-19T17:20:40 IST" duration-ms="1000" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addingElement -->
-      </class> <!-- com.testpages.TestAddRemovePage -->
+        </test-method> <!-- test03 -->
+      </class> <!-- com.testpages.TestHomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

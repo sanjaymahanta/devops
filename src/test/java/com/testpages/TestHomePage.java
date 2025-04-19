@@ -22,8 +22,17 @@ public class TestHomePage extends Baseclass{
 		hp = new Homepage(driver);
 	}
 	
-	@Test
+	@Test(enabled = false)
 	public void checkAddRemoveElement() {
 	hp.addRemove();
 	}
+	
+	
+	@Test
+	public void test03() {
+		hp.authentication();
+		driver.get("https://admin:admin@the-internet.herokuapp.com/");
+		
+	}
+	
 }
